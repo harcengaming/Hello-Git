@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e8ec;
+}
+header {
+    font-family: "Brush Script MT" ;
+    font-size: 40px;
+    text-align: center;
+}
+nav {
+    text-align: end;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   /* background-color: khaki;*/
+}
+#go-another-web {
+    word-spacing: 2px;
+}
+.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: AUTO;
+        margin-left: AUTO;
+}
+.col-section {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+    border: 5px solid #333;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.flex-img-work-article-col-section {
+    flex-direction: column;
+    width: 300px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 3.5rem!important;
+    text-align: justify;
+}
+.img-col-section {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.h2, .h3, .h4 {
+    font-weight: 500;
+    line-height: 1.2;
+}
+.descript-col-section {
+    margin-bottom: .75rem ;
+    font-size: 1rem;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 21px!important;
+}
+.text-warning {
+    color: #ffc107!important;
+}
+/*.col-sidebar {
+     background-color: #f1f1f1;
+     max-width: auto;
+     margin-left: auto;
+     padding-left: 20px;
+     transition: margin .25s ease-out;
+     min-height: 100vh;
+     padding-right: 12px;
+ } */
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #646c77;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+}
+.container-footer {
+    width: 100%;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+/*.col-section {
+    /*background-color: pink;
+    width: 68%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding : 1.25rem;
+    justify-content: space-between;
+    text-align: justify;
+}*/
