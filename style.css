@@ -1,0 +1,92 @@
+
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+body {
+    padding: 100px;
+    background-image: linear-gradient(-20deg, red 0%, blue 100%);
+    text-align: center;
+    font-family: 'Quicksand' sans-serif;
+}
+ul {
+    margin-left: -45px;
+
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.main {
+    width: 800px;
+    height: 520px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black
+
+}
+.img {
+    background-image: url('img/meong3.jpg');
+    background-color: cornflowerblue;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: palevioletred;
+}
+p {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: white;
+
+}
+.footer {
+
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+        font-weight: bold;
+        color: cornflowerblue;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.container {
+    background-image: url('img/blog.jpeg');
+    background-color: cornflowerblue;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.container2 {
+    background-image: url('img/pendaki.jpg');
+    background-color: cornflowerblue;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
